@@ -4,7 +4,8 @@ public:
         if(n < 3)
             return n;
 
-        int *dp = new int[n+1]();
+        vector<int> dp(n+1);
+
         dp[1] = 1;
         dp[2] = 2;
 
